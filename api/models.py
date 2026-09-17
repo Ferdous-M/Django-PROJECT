@@ -15,3 +15,6 @@ class Company(models.Model):
                            ("Mobiles Phones",'Mobile Phones')
                            ))
 
+    added_date=models.DateTimeField(auto_now=True)
+    active=models.BooleanField(default=True)
+    
